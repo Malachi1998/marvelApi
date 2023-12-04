@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(74, 183, 202);
+
+}
+
+.title {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    /* Color del texto */
+    text-shadow: 2px 2px 4px #000000;
+    /* Aumenta el contorno del texto */
+}
+
+.description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: green;
+    color: #ffffff;
+    /* Color del texto */
+    text-shadow: 2px 2px 4px #000000;
+    /* Aumenta el contorno del texto */
+}
+
+.img-thumbnail {
+    display: grid;
+    padding: 2rem 5rem;
+    size: 2px;
+    color: red;
+    grid-template-columns: repeat(3, 1fr);
+    /* Crea 3 columnas de igual tamaño */
+    grid-template-rows: repeat(3, 1fr);
+    /* Crea 3 filas de igual tamaño */
+    gap: 10px;
+    /* Espacio entre las imágenes */
+}
+
+
+
+.col-md-4 {
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(39, 179, 39);
+    padding: 4rem 4rem;
+}
+
+footer {
+    background-color: rgb(39, 179, 39);
+    padding: 4rem 4rem;
+}
+
+form {
+    padding: 2rem 5rem;
+    gap: 3rem;
+}
